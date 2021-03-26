@@ -1,6 +1,6 @@
 OMG MY RANDOM PAGE SERIES
-=========================
-# Random Animal
-## Duck
-###     Quack Quack
+-------------------------
 
+## Page 1 - Duck
+
+## Page 2 - Cat
