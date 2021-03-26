@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>랜덤고양이</title>
+
+    <link rel="shortcut icon" href="https://i.esdrop.com/d/dIKIDOVha2.png">
+    <link rel="icon" href="https://i.esdrop.com/d/dIKIDOVha2.png">
+
+    <style>
+        img {
+            width: 500px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            height: auto !important;
+        }
+        input {
+                margin: auto;
+                display: block;
+                outline: none;
+            }
+    </style>
+</head>
+<body>
+    <script>
+        function btn_click() {
+            location.reload();
+        }
+    </script>
+    <div>
+        <h1 style="text-align: center;">랜덤 고양이 사진</h1>
+        <img id="image" src="https://thecatapi.com/api/images/get?format=src&type=png" alt="" border=2>
+        <input type="image" src="https://i.esdrop.com/d/qPwKUIkeZc.png" onclick="btn_click();">
+    </div>
+</body>
+</html>
